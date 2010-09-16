@@ -1,8 +1,11 @@
 #! /usr/bin/env ruby
 
+# bundle install
 require "rubygems"
-require "em-websocket-server"
+require "bundler/setup"
 
+# require gems
+require "em-websocket-server"
 
 class SocketServer < EM::WebSocket::Server
  
